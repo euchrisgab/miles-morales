@@ -1,0 +1,29 @@
+@import url(https://fonts.google.com/share?selection.family=News+Cycle:wght@400;700|Teko:wght@300..700);
+
+:root {
+    --cor-principal: #36ca56;
+    --cor-secundaria: #ff0000;
+    --cor-destaque: #000000;
+}
+body{
+ font-family: "News Cycle";
+}
+ h1,h2 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+body {
+    background-image: url(https://pbs.twimg.com/media/GIAjerfbAAE4Lj4?format=jpg&name=4096x4096);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    min-height: 100vh;    
+  }
